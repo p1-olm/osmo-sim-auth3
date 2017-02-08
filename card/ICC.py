@@ -35,12 +35,11 @@ import re
 # smartcard python modules from pyscard
 from smartcard.CardType import AnyCardType
 from smartcard.CardRequest import CardRequest
-from smartcard.CardConnection import CardConnection
 from smartcard.ATR import ATR
 from smartcard.Exceptions import CardConnectionException
 from smartcard.util import toHexString
 
-from card.utils import *
+from .utils import *
 
 ###########################################################
 # ISO7816 class with attributes and methods as defined

@@ -28,9 +28,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 # http://pyscard.sourceforge.net/
 #################################
 
-from card.ICC import UICC, ISO7816
-from card.FS import *
-from card.utils import *
+from .ICC import UICC, ISO7816
+from .FS import *
+from .utils import *
 
 
 class USIM(UICC):
